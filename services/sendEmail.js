@@ -15,7 +15,7 @@ const transporter = nodemailer.createTransport({
 
 const sendEmail = async (referral) => {
     const receiver = {
-        from : process.env.USER_EMAIL,
+        from : referral.referrer_email,
         to : referral.referee_email,
         subject : `You have been referred 🎉🎉`,
         text : `Hello ${referral.referee_name}, your friend ${process.env.EMAIL_USER} has referred you for the course ${referral.course} at Accredian. Copy and paste above mentioned email to avail 20% discount 🥳` 
