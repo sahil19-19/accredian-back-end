@@ -15,10 +15,10 @@ datasource db {
 
 model Referral {
   id            Int      @id @default(autoincrement())
-  referrerEmail String
-  refereeName   String
-  refereeEmail  String
-  refereeNumber String
+  referrer_email String
+  referee_name   String
+  referee_email  String
+  referee_number String
   course        String
   createdAt     DateTime @default(now())
 }
