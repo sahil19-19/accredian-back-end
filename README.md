@@ -20,7 +20,7 @@
 
 -  Create `.env ` file using `.env.sample` file  
   EMAIL_USER stores the email of the current user to simulate a state in which the user is signed-in. EMAIL_PASS is the 16-digit app password related to the email. Enter your email here, this will be the email Id from which emails will be sent.
-  This will be the same email Id from the front-end `.env` file
+  This will be the same email Id from the front-end `.env` file.  
   More about app passwords -
 
     ```
